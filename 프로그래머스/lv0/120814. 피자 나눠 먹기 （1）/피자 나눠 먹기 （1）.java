@@ -9,3 +9,12 @@ class Solution {
         return answer;
     }
 }
+
+//다름 사람의 풀이
+
+//    public int solution(int n) {
+//        int answer = (n%7==0) ? n/7 : n/7 + 1;
+//        return answer;
+//    }
+
+//조건 ? 참인경우반환값 : 거짓인경우반환값
