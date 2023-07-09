@@ -1,8 +1,13 @@
 class Solution {
     public int solution(int hp) {
+        int answer = hp / 5 + (hp % 5 / 3) + hp % 5 % 3;
+
+        /*
         int answer = 0;
+        
         int a; 
         int b;
+        
         //장군(a) 5, 병정(b) 3, 일(c) 1
         if(hp>=5){
             a = hp/5;
@@ -17,6 +22,7 @@ class Solution {
         if(hp<3){
             answer += hp; 
         }
+        */
         
         return answer;
     }
