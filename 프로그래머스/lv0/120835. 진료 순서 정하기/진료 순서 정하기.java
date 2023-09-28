@@ -9,8 +9,6 @@ class Solution {
                 }
             }
         }
-        
-        
         return answer;
     }
 }
